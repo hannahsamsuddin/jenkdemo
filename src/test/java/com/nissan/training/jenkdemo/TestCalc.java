@@ -17,4 +17,9 @@ public class TestCalc {
 		Calc c = new Calc();
 		assertEquals(1,c.sub(3, 2));
 	}
+	@Test
+	public void testmul() {
+		Calc c = new Calc();
+		assertEquals(6,c.mult(3, 2));
+	}
 }
